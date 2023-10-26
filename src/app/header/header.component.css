@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.content{
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 100vw;
+
+
+}
+.content .head-content{
+    box-shadow: 0px 0px 10px 0 rgba(34, 41, 47, 0.582);
+    width: 100%;
+    display: grid;
+    background: #6a81d7;
+    height: 100px;
+    grid-template-columns: 200px 1fr 450px;
+    position: fixed;
+  
+}
+
+
+.content .head-content .left img{
+    width: 170px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.content .head-content .meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content .head-content .meio a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #074877;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.content .head-content .meio a:hover{
+    color: #fff;
+}
+
+.content .head-content .direita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content .head-content .direita .rast a:hover{
+    color: #0065AD;
+}
+.content .head-content .direita .rast .icon{
+    
+    font-size: 22px;
+    color: #0065AD;
+}
+.content .head-content .direita .rast {
+    display: flex;
+    align-items: center;
+}
+.content .head-content .direita .rast a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.content .head-content .direita .input .search{
+    background: transparent;
+    cursor: pointer;
+}
+.content .head-content .direita .input input{
+    color: rgb(55, 53, 53);
+    width: 170px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.content .head-content .direita .input .icon{
+    padding: 5px;
+    font-size: 20px;
+    color: #0065AD;
+}
+.content .head-content .direita .user .icon{
+    margin: 20px;
+    font-size: 28px;
+    color: #0065AD;
+    cursor: pointer;
+}
+.content .head-content .direita .user .icon:hover{
+    color: #fff;
+}
+.content .head-content .direita .user .icon1:hover{
+    color: #fff;
+}
+.content .head-content .direita .user .icon1{
+    margin: 10px;
+    font-size: 28px;
+    color: #0065AD;
+    cursor: pointer;
+}
+.content .head-content .direita .input{
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
